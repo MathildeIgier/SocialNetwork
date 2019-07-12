@@ -18,6 +18,10 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* SocialNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SocialNetworkTests.m */; };
+		4EBEDF5522D8D00B00162069 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EBEDF5422D8D00B00162069 /* GoogleService-Info.plist */; };
+		4EBEDF5622D8D00B00162069 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EBEDF5422D8D00B00162069 /* GoogleService-Info.plist */; };
+		4EBEDF5722D8D00B00162069 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EBEDF5422D8D00B00162069 /* GoogleService-Info.plist */; };
+		4EBEDF5822D8D00B00162069 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EBEDF5422D8D00B00162069 /* GoogleService-Info.plist */; };
 		707DE919D82779641C29B0AE /* libPods-SocialNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2BCC24AF32A33E5DCFB341 /* libPods-SocialNetwork.a */; };
 		7DC4EA54C8F4CB5CA574671F /* libPods-SocialNetworkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E86BC75A7139815287BAAD48 /* libPods-SocialNetworkTests.a */; };
 /* End PBXBuildFile section */
@@ -54,6 +58,7 @@
 		2A11ACD7A8CF25BEF35B7DDB /* Pods-SocialNetwork-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNetwork-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNetwork-tvOS/Pods-SocialNetwork-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* SocialNetwork-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SocialNetwork-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* SocialNetwork-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SocialNetwork-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EBEDF5422D8D00B00162069 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5B1D28571A5F8999A64F5D42 /* libPods-SocialNetwork-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SocialNetwork-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C2BCC24AF32A33E5DCFB341 /* libPods-SocialNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SocialNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E76E88A302FC77A26FBD5F /* Pods-SocialNetwork-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNetwork-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNetwork-tvOSTests/Pods-SocialNetwork-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +137,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				4EBEDF5422D8D00B00162069 /* GoogleService-Info.plist */,
 			);
 			name = SocialNetwork;
 			sourceTree = "<group>";
@@ -328,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EBEDF5622D8D00B00162069 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +344,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				4EBEDF5522D8D00B00162069 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+				4EBEDF5722D8D00B00162069 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +361,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EBEDF5822D8D00B00162069 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

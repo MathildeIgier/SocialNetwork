@@ -1,12 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { View, Text } from 'react-native';
+import firebase from 'react-native-firebase';
 
 import styles from './LoadingStyles';
 
 export default function Loading(props) {
   useEffect(() => {
-    const loggedState = false;
-    props.navigation.navigate(loggedState ? 'Home' : 'Login');
+    // firebase.auth().signOut();
+    const user = firebase.auth().currentUser;
+    console.log('user --------', user);
+    props.navigation.navigate(user ? 'Home' : 'Login');
   });
 
   return (

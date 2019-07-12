@@ -29,6 +29,10 @@ target 'SocialNetwork' do
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+  pod 'Firebase/Core', '~> 6.3.0'
+  pod 'Firebase/Auth', '~> 6.3.0'
+
+  # pod 'RNFirebase', :path => '../node_modules/react-native-firebase'
 
   target 'SocialNetworkTests' do
     inherit! :search_paths
