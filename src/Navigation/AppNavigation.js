@@ -1,14 +1,16 @@
-import { createStackNavigator, createAppContainer } from 'react-navigation';
+import { createSwitchNavigator, createAppContainer } from 'react-navigation';
 import Home from '../Containers/Home/Home';
 import Loading from '../Containers/Loading/Loading';
+import Login from '../Containers/Login/Login';
 
 /* import styles from './Styles/NavigationStyles'; */
 
 // Manifest of possible screens
-const PrimaryNav = createStackNavigator(
+const AuthStack = createSwitchNavigator(
   {
     Home: { screen: Home },
-    Loading: { screen: Loading }
+    Loading: { screen: Loading },
+    Login: { screen: Login }
   },
   {
     // Default config for all screens
@@ -20,4 +22,4 @@ const PrimaryNav = createStackNavigator(
   }
 );
 
-export default createAppContainer(PrimaryNav);
+export default createAppContainer(AuthStack);
