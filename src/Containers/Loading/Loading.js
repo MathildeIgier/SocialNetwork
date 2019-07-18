@@ -6,7 +6,7 @@ import styles from './LoadingStyles';
 
 export default function Loading(props) {
   useEffect(() => {
-    // firebase.auth().signOut();
+    firebase.auth().signOut();
     const user = firebase.auth().currentUser;
     console.log('user --------', user);
     props.navigation.navigate(user ? 'Home' : 'Login');
