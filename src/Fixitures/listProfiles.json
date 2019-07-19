@@ -1,0 +1,54 @@
+{
+  "total_count": 7,
+  "items": [
+    {
+      "_id": "1",
+      "firstname": "Stanton",
+      "lastname": "Yesenia",
+      "speciality": "Badminton",
+      "rank": "4"
+    },
+    {
+      "_id": "2",
+      "firstname": "Jensen",
+      "lastname": "Gina",
+      "speciality": "Basket",
+      "rank": "3"
+    },
+    {
+      "_id": "3",
+      "firstname": "Katy",
+      "lastname": "Dillard",
+      "speciality": "Basket",
+      "rank": "5"
+    },
+    {
+      "_id": "4",
+      "firstname": "Bettie",
+      "lastname": "Dixon",
+      "speciality": "Badminton",
+      "rank": "5"
+    },
+    {
+      "_id": "5",
+      "firstname": "Margret",
+      "lastname": "Jacobs",
+      "speciality": "Basket",
+      "rank": "5"
+    },
+    {
+      "_id": "6",
+      "firstname": "Josefina",
+      "lastname": "Padilla",
+      "speciality": "Basket",
+      "rank": "4"
+    },
+    {
+      "_id": "7",
+      "firstname": "Daniels",
+      "lastname": "Rosella",
+      "speciality": "Rugby",
+      "rank": "5"
+    }
+  ]
+}

@@ -9,3 +9,7 @@ export default function Blank() {
 
   return <View style={styles.containerPage}></View>;
 }
+
+Blank.navigationOptions = ({ navigation }) => ({
+  title: 'Blank'
+});
