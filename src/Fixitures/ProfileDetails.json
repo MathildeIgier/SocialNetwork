@@ -1,0 +1,42 @@
+{
+  "_id": "1",
+  "firstname": "Stanton",
+  "lastname": "Yesenia",
+  "speciality": "Basket",
+  "rank": "4",
+  "personalMessage": "I am a pationate of sport and give sport lesson from 5 years",
+  "sessions": [
+    {
+      "title": "Group session",
+      "description": "Group session - beginners are welcome",
+      "place": "Basket center",
+      "time": "Every Monday",
+      "price": "200 CHF/an",
+      "participant": "15"
+    },
+    {
+      "title": "Beginners lesson",
+      "description": "Personal session for beginners",
+      "place": "Basket center",
+      "time": "Flexible",
+      "price": "30 CHF/h",
+      "participant": "1"
+    },
+    {
+      "title": "Advanced lesson",
+      "description": "Personal session for advanced player",
+      "place": "Basket center",
+      "time": "Flexible",
+      "price": "30 CHF/h",
+      "participant": "1"
+    },
+    {
+      "title": "Shot session",
+      "description": "Only for advanced players",
+      "place": "Basket center",
+      "time": "30th July",
+      "price": "20 CHF/h",
+      "participant": "15"
+    }
+  ]
+}

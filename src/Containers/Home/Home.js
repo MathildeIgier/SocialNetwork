@@ -8,7 +8,7 @@ import Card from '../../Components/Card/Card';
 
 import styles from './HomeStyles';
 
-export default function Home() {
+export default function Home(props) {
   // Declare a new state variable, which we'll call "count"
   console.log('list ---', dataListProfiles);
   return (
@@ -23,6 +23,7 @@ export default function Home() {
             id={item._id}
             speciality={item.speciality}
             rank={item.rank}
+            onPress={() => props.navigation.navigate('ProfileDetail')}
           />
         )}
         keyExtractor={(item, index) => index.toString()}
@@ -30,7 +31,3 @@ export default function Home() {
     </View>
   );
 }
-
-Home.navigationOptions = ({ navigation }) => ({
-  title: 'Home'
-});

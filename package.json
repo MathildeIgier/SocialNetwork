@@ -5,6 +5,7 @@
   "scripts": {
     "start": "react-native start",
     "test": "jest",
+    "jest-u": "jest -u",
     "lint": "eslint .",
     "postinstall": "jetify"
   },
@@ -38,6 +39,9 @@
     "react-test-renderer": "16.8.6"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "setupFiles": [
+      "./jest.setup.js"
+    ]
   }
 }

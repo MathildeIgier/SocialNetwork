@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "paddingTop": 15,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "width": 20,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontSize": 24,
+          },
+          undefined,
+          Object {
+            "fontFamily": "Ionicons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 16,
+        "marginLeft": 10,
+        "paddingTop": 3,
+      }
+    }
+  />
+</View>
+`;

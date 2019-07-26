@@ -1,12 +1,11 @@
 import React from 'react';
-import { View, Text, Image } from 'react-native';
-import { TouchableOpacity } from 'react-native-gesture-handler';
+import { View, Text, Image, TouchableOpacity } from 'react-native';
 
 import styles from './CardStyles';
 
 import Ranking from '../Ranking/Ranking';
 
-export default function Card({ image, firstname, lastname, speciality, rank, id }) {
+export default function Card({ image, firstname, lastname, speciality, rank, id, onPress }) {
   return (
     <View>
       <View style={styles.cardContainer}>
@@ -19,7 +18,7 @@ export default function Card({ image, firstname, lastname, speciality, rank, id 
           </Text>
           <Text style={styles.speciality}>{speciality}</Text>
           <Ranking rank={rank} />
-          <TouchableOpacity style={styles.button}>
+          <TouchableOpacity style={styles.button} onPress={onPress}>
             <Text style={styles.textButton}>Show more</Text>
           </TouchableOpacity>
         </View>
