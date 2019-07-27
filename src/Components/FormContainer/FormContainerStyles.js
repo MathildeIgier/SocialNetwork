@@ -3,6 +3,16 @@ import { Colors, ApplicationStyles } from '../../Themes';
 
 export default StyleSheet.create({
   ...ApplicationStyles.screen,
+  iconContainer: {
+    backgroundColor: Colors.lavander,
+    width: 90,
+    height: 90,
+    borderRadius: 45,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: -75,
+    marginBottom: 20
+  },
   formTitle: {
     fontSize: 22,
     fontWeight: 'bold'
@@ -19,9 +29,5 @@ export default StyleSheet.create({
     margin: 20,
     borderRadius: 15,
     alignItems: 'center'
-  },
-  forgotlink: {
-    alignItems: 'flex-end',
-    width: '100%'
   }
 });

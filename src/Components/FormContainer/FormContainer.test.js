@@ -2,9 +2,9 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Register from './Register';
+import FormContainer from './FormContainer';
 
 test('renders correctly', () => {
-  const tree = renderer.create(<Register />).toJSON();
+  const tree = renderer.create(<FormContainer />).toJSON();
   expect(tree).toMatchSnapshot();
 });

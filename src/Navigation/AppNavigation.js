@@ -10,6 +10,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import Home from '../Containers/Home/Home';
 import Loading from '../Containers/Loading/Loading';
 import Login from '../Containers/Login/Login';
+import Register from '../Containers/Register/Register';
 import Profile from '../Containers/Profile/Profile';
 import ProfileDetail from '../Containers/ProfileDetail/ProfileDetail';
 
@@ -64,7 +65,8 @@ const AuthStack = createSwitchNavigator(
   {
     LoggedIn,
     Loading: { screen: Loading },
-    Login: { screen: Login }
+    Login: { screen: Login },
+    Register: { screen: Register }
   },
   {
     // Default config for all screens
