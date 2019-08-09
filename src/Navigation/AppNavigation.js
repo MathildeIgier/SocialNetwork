@@ -11,6 +11,7 @@ import Home from '../Containers/Home/Home';
 import Loading from '../Containers/Loading/Loading';
 import Login from '../Containers/Login/Login';
 import Register from '../Containers/Register/Register';
+import ForgetPassword from '../Containers/ForgotPassword/ForgotPassword';
 import Profile from '../Containers/Profile/Profile';
 import ProfileDetail from '../Containers/ProfileDetail/ProfileDetail';
 
@@ -66,7 +67,8 @@ const AuthStack = createSwitchNavigator(
     LoggedIn,
     Loading: { screen: Loading },
     Login: { screen: Login },
-    Register: { screen: Register }
+    Register: { screen: Register },
+    ForgetPassword: { screen: ForgetPassword }
   },
   {
     // Default config for all screens

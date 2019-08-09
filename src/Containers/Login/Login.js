@@ -33,6 +33,10 @@ export default function Login(props) {
     props.navigation.navigate('Register');
   }
 
+  function forgetPassword() {
+    props.navigation.navigate('ForgetPassword');
+  }
+
   return (
     <FormContainer title="Sign In" icon="ios-person">
       <React.Fragment>
@@ -51,7 +55,7 @@ export default function Login(props) {
           placeholder="Password"
         />
         <View style={styles.forgotlink}>
-          <LinkButton onPress={createAccount} text="Forgot password?" />
+          <LinkButton onPress={forgetPassword} text="Forgot password?" />
         </View>
         <PrimaryButton onPress={signIn} text="Login" />
         <LinkButton onPress={createAccount} text="Create account" />
